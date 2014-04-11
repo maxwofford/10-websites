@@ -7,6 +7,19 @@ nav {
 }
 
 .content {
-    width: 75%
-    
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F1ED;
+}
+
+.head-content {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-head {
+    background-image: url(http://p1.pichost.me/i/25/1480773.jpg); /*Placeholder Background- don't forget to change!*/
 }

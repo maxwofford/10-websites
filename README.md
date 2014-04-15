@@ -12,5 +12,6 @@ Rules
 Notes
 ---
 * Want to use these templates to your heart's content? All websites are licensed under the MIT license. You can do that!
-* This won't happen for the weekend after I create this repo, as I'll be busy at [LAHacks](https://www.lahacks.com/).
+* I have a [triphasic sleep schedule](http://lmgtfy.com/?q=triphasic+sleep+schedule), so websites might not be finished at exactly midnight. In this case the website must be finished by the time my first cycle of the following day begins.
+* This won't happen for the weekend after I create this repo, as I'll be busy at [LAHacks](http://www.lahacks.com/). Check out our [hack](http://tryridr.com/)!
 * The first website will likely be a blog for me to post about my experience over the 10 days I am doing this.

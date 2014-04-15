@@ -1,22 +1,27 @@
 body {
+	width: 100%;
 	margin: 0;
 	background-image: url(http://cdn.home-designing.com/wp-content/uploads/2013/10/classic-living-room.jpeg); /*Place holder background*/
 	background-size: 100%;
 	background-repeat: no-repeat;
 }	
 .content {
-	float: right;
+	width: 35%;
 	margin: 3em;
 	background: rgba(225, 225, 225, 0.23);
 	text-align: right;
-	width: auto;
 	height: 30em;
+	float: right;
 	/*Font*/
 	color: white;
-	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+	font: 26px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
 	line-height: auto;
 	font-weight: bold;
-	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+.text-area {
+	float: center;
+	text-align: center;
 }
 footer {
 	position: fixed;
@@ -41,17 +46,30 @@ nav {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	text-align: center;
+	float: right;
 }
 a {
 	color: white;
 	text-decoration: none;
+	margin-right: auto;
+	margin-left: auto;
 }
 a:hover {
 	color: white;
 	background: #78eb05;
 }
-input[type="text"] {
-	background: rgba(225, 225, 225, 0.5);
+input[type="email"] {
+	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+	width: 15em;
+	padding: 1em;
+	margin: 1em;
+	background: rgba(0, 0, 0, 0.5);
 	border: none;
 	color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+#email-input {
+	margin-right: auto;
+	margin-left: auto;
 }

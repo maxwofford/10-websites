@@ -5,7 +5,7 @@ I'm challenging myself to make 10 websites in 10 days.
 
 Rules
 ---
-* Templates (ie. [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), etc.) are allowed, but I can't use the same one one two different websites.
+* Templates (ie. [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), etc.) are allowed, but I can't use the same one on two different websites.
 * I will gladly accept pull requests to improve the quality of past work. Pull requests for work in progress will not be accepted unless otherwise stated.
 
 

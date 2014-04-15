@@ -1,3 +1,57 @@
 body {
-	background-image: url(http://ppcdn.500px.org/52454318/5a85c84af40c52aab42a6c23104954255b4c6634/2048.jpg); /*Place holder background*/
+	margin: 0;
+	background-image: url(http://cdn.home-designing.com/wp-content/uploads/2013/10/classic-living-room.jpeg); /*Place holder background*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+}	
+.content {
+	float: right;
+	margin: 3em;
+	background: rgba(225, 225, 225, 0.23);
+	text-align: right;
+	width: auto;
+	height: 30em;
+	/*Font*/
+	color: white;
+	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+	line-height: auto;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	background: rgba(225, 225, 225, 0.23);
+	width: 100%;
+	color: white;
+	font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+nav {
+	position: fixed;
+	top: 0;
+}
+.btn {
+	border-radius: 10%;
+	background: rgb(118, 204, 30);
+	display: block;
+	width: 7em;
+	margin: 1em;
+	margin-top: 3em;
+	padding: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	background: #78eb05;
+}
+input[type="text"] {
+	background: rgba(225, 225, 225, 0.5);
+	border: none;
+	color: white;
 }

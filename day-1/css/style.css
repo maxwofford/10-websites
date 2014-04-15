@@ -37,7 +37,6 @@ nav {
 }
 .btn {
 	border-radius: 10%;
-	background: rgb(118, 204, 30);
 	display: block;
 	width: 7em;
 	margin: 1em;
@@ -50,13 +49,14 @@ nav {
 }
 a {
 	color: white;
+	background: #2181d1;
 	text-decoration: none;
 	margin-right: auto;
 	margin-left: auto;
 }
 a:hover {
 	color: white;
-	background: #78eb05;
+	background: #05a4eb;
 }
 input[type="email"] {
 	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;

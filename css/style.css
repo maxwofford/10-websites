@@ -1,9 +1,32 @@
 nav {
+  color: #F2F1ED;
   display: block;
   position: relative;
   display: block;
   float: center;
   margin: 0 0 0 0;
+  height: 3em;
+  /*background-color: #605B4F;*/
+  background: rgb(96,91,79); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(96,91,79) 1%, rgb(29,44,44) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgb(96,91,79)), color-stop(100%,rgb(29,44,44))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#605b4f', endColorstr='#1d2c2c',GradientType=0 ); /* IE6-9 */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+    height: 2em;
+}
+
+body {
+    margin: 0 0 0 0;
 }
 
 .content {
@@ -13,7 +36,6 @@ nav {
     margin-right: auto;
     background-color: #F2F1ED;
 }
-
 .head-content {
     text-align: center;
     margin-right: auto;

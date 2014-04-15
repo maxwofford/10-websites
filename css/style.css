@@ -16,19 +16,15 @@ background: -ms-linear-gradient(top, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* IE
 background: linear-gradient(to bottom, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#605b4f', endColorstr='#1d2c2c',GradientType=0 ); /* IE6-9 */
 }
-
 a {
   text-decoration: none;
 }
-
 nav a {
     height: 2em;
 }
-
 body {
     margin: 0 0 0 0;
 }
-
 .content {
     width: 75%;
     text-align: center;
@@ -41,7 +37,12 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
 .page-head {
     background-image: url(http://p1.pichost.me/i/25/1480773.jpg); /*Placeholder Background- don't forget to change!*/
+}
+.website-list {
+  display: block;
+}
+a img {
+  width: 25%;
 }

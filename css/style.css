@@ -19,6 +19,12 @@ background: linear-gradient(to bottom, rgb(96,91,79) 1%,rgb(29,44,44) 100%); /* 
 a {
   text-decoration: none;
 }
+a:hover {
+  color: grey;
+}
+a:visited {
+  color: white;
+}
 nav a {
     height: 2em;
 }
@@ -36,6 +42,11 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    color: white;
+    font: 26px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: auto;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
 }
 .page-head {
     background-image: url(http://p1.pichost.me/i/25/1480773.jpg); /*Placeholder Background- don't forget to change!*/

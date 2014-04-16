@@ -1,3 +1,28 @@
+/*Custom goes here*/
+
+footer.row div.large-12.columns{
+  background-color: #7b8890;
+}
+
+footer.row div.large-12.columns div.row {
+  background-color: #465660;
+  color: #7b8890;
+}
+
+#see-products {
+  background-image: url(../img/seeProducts.jpg);
+  width: 640px;
+  height: 73px;
+}
+
+#see-products:hover {
+  background-image: url(../img/seeProductsExpand.jpg);
+  width: 640px;
+  height: 990px;
+}
+
+/*Custom ends here*/
+
 meta.foundation-version {
   font-family: "/5.2.2/"; }
 
@@ -40,7 +65,7 @@ body {
 
 body {
   background: white;
-  color: #A3440E;
+  color: black;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;

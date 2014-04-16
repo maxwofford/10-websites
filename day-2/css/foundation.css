@@ -40,7 +40,7 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #A3440E;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1108,7 +1108,7 @@ button, .button {
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
-    color: #333333; }
+    color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #b9b9b9; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -1249,10 +1249,9 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
+  height: 93px;
   line-height: 45px;
   position: relative;
-  background: #333333;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1276,7 +1275,7 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+    height: 93px;
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
@@ -1294,6 +1293,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
+      border: orange solid 1px;
       color: white;
       text-transform: uppercase;
       font-size: 0.8125rem;
@@ -1309,11 +1309,11 @@ meta.foundation-mq-topbar {
       margin-top: -16px;
       padding-left: 40px; }
       .top-bar .toggle-topbar.menu-icon a {
-        height: 34px;
+        height: 60px;
         line-height: 33px;
         padding: 0;
         padding-right: 25px;
-        color: white;
+        color: orange;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a::after {
           content: "";
@@ -1327,8 +1327,7 @@ meta.foundation-mq-topbar {
   .top-bar.expanded {
     height: auto;
     background: transparent; }
-    .top-bar.expanded .title-area {
-      background: #333333; }
+    .top-bar.expanded .title-area { }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -1343,7 +1342,6 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -1355,14 +1353,14 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: white;
+    color: orange;
+    border-bottom: 1px solid orange;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
-    text-transform: none;
-    background: #333333; }
+    text-transform: none; }
     .top-bar-section ul li > a.button {
       font-size: 0.8125rem;
       padding-right: 15px;
@@ -1514,7 +1512,6 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -1558,8 +1555,7 @@ meta.foundation-mq-topbar {
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
-      line-height: 45px;
-      background: #333333; }
+      line-height: 45px; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -2812,11 +2808,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: orange;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #A3440E; }
   a img {
     border: none; }
 

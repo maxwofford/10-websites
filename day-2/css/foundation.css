@@ -11,14 +11,16 @@ footer.row div.large-12.columns div.row {
 
 #see-products {
   background-image: url(../img/seeProducts.jpg);
-  width: 640px;
-  height: 73px;
+  background-size: 100%;
+  height: 5em;
+  background-repeat: no-repeat;
 }
 
 #see-products:hover {
   background-image: url(../img/seeProductsExpand.jpg);
-  width: 640px;
-  height: 990px;
+  /*height: 990px;*/
+  height: 60em;
+  background-size: 100%;
 }
 
 /*Custom ends here*/

@@ -178,6 +178,7 @@ a:focus {
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
+    color: white;
 }
 
 /*
@@ -187,7 +188,7 @@ a:focus {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.75;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -195,6 +196,27 @@ a:focus {
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
 }
+
+.class {
+   width: 20%;
+   content: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Aiga_toiletsq_men.svg);
+   display: block; 
+   float: left;
+}​
+
+.seniors {
+   width: 1%;
+   content: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Aiga_toiletsq_men.svg);
+   display: block; 
+   float: left;
+}​
+
+.school {
+   width: 1%;
+   content: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Aiga_toiletsq_men.svg);
+   display: block; 
+   float: left;
+}​
 
 .impress-enabled .step.active { opacity: 1 }
 

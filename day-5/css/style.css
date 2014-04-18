@@ -1,0 +1,34 @@
+body {
+  font-family: 'Helvetica';
+  color: #a6a4a1;
+  background: black;
+}
+
+.content {
+  background: #383635;
+  margin: 1em;
+  padding: 2em;
+  padding-top: 1em;
+  border-radius: 1em;
+} 
+
+.game-unordered-list {
+  list-style: none;
+  float: center;
+  padding: 0px;
+}
+
+a {
+  color: #a6a4a1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bfcfcd;
+}
+
+hr {
+  color: #bfcfcd;
+  background: #bfcfcd;
+  border-color: #bfcfcd;
+}

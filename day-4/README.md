@@ -33,6 +33,8 @@ Lines
 * Everything you ever do will have no meaning.
 
 
+* So why should you care?
+
 [Scrolling in here]
 * Call me Max.
 * I exist.
@@ -50,4 +52,4 @@ Lines
 * I have experience as a musician.
 * I give my life meaning through these experiences.
 * I am a unique individual.
-* I have never existed before, and I will never exist again. 
+* I have never existed before, and I will never exist again.

@@ -1,11 +1,11 @@
 Day-4
 ===
-Today is going to be (part) of a presentation on Existentialism for APLit.
+Today is going to be made with impress.js
 
 
 Existentialism Project
 ---
-This is 
+This is a presentation on Existentialism for APLit. The lines are going to be slides.
 
 
 Lines
@@ -31,7 +31,6 @@ Lines
 * This galaxy started colliding with another* over a billion years before you were born, (*Sag DEG)
 * It will finish colliding billions of years after your star burns out
 * Everything you ever do will have no meaning.
-
 
 * So why should you care?
 

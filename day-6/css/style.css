@@ -1,0 +1,43 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.section-center {
+    text-align: center;
+}
+
+.top-title {
+
+}
+
+.main-title {
+
+}
+
+.button {
+    border: rgba(0,0,0,.75) 1px solid;
+    border-radius: 1em;
+    margin: 5em;
+    padding: 1.5em;
+    text-decoration: none;
+    color: rgba(0,0,0,.75);
+}
+
+a:hover .button{
+    text-decoration: none;
+}
+
+#progressbar {
+	width: 75%;
+	border: black solid;
+	border-radius: 1em; /* (height of inner div) / 2 + padding */
+	padding: .2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#progressbar > div {
+	background-color: orange;
+	height: 1.4em;
+	border-radius: .8em;
+}

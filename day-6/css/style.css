@@ -23,7 +23,7 @@ nav {
 	display: block;
 }
 
-.section-center {
+.head-section {
     text-align: center;
     padding: 5em;
 	-webkit-background-size: cover;
@@ -32,9 +32,20 @@ nav {
 	background-size: cover; 
 }
 
-.section-right {
+.section-container {
 	background: rgba(236, 240, 241, 0.5);
+	display: block;
+	margin: 5em;
+	overflow: auto;
 }
+
+.content-container {
+	text-align: right;
+	float: left;
+	max-width: 50%;
+	display: block;
+}
+
 
 .top-title {
 	color: rgba(255,255,255,.85);

@@ -21,3 +21,8 @@ Websites
 
 * [tryRidr.com](http://www.tryridr.com) This was actually a website I made at [LAHacks](http://www.lahacks.com/), but because it was within the 10 days, I figured I'd include it in this list. Get the template [Here](https://github.com/SlothHacks-2014/tryridr/tree/gh-pages)
 * [Day-1](http://maxwofford.com/10-websites/day-1/) This is a landing page for making a mail list. Collecting emails for a startup is probably the best use case, but I'm sure there are other things. Get the template [Here](https://github.com/MaxWofford/10-websites/tree/gh-pages/day-1)
+* [Day-2](http://maxwofford.com/10-websites/day-2/) This is a responsive version of [freeuniformquotes.com](http://www.freeuniformquotes.com/Users/Home.aspx) built with [Foundation](http://foundation.zurb.com/).
+* [Day-3](http://maxwofford.com/10-websites/day-3/) is an online repository of required reading for my school. 
+* [Day-4](http://maxwofford.com/10-websites/day-4/) is a presentation built with [impress.js](https://bartaz.github.io/impress.js/#/bored) for my AP Literature Existentialism project.
+* [Day-5](http://maxwofford.com/10-websites/day-5/) is a storefront for trading [steamkeys](http://store.steampowered.com/) for [Ðogecoin](http://dogecoin.com/)
+* [Day-6](http://maxwofford.com/10-websites/day-6/) is another landing page. 

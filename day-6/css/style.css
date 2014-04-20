@@ -1,35 +1,62 @@
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+	color: rgba(255,255,255,.5);
+}
+
+nav {
+	border-bottom: rgba(255,255,255,.5) 1px solid;
+	color: rgba(255,255,255,.5);
 }
 
 .section-center {
     text-align: center;
+    padding: 5em;
+    background-image: url(../img/bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
 }
 
 .top-title {
-
+	color: rgba(255,255,255,.85);
 }
 
 .main-title {
+	color: rgba(255,255,255,.95);
+}
 
+p {
+	color: rgba(255,255,255,.85);
 }
 
 .button {
-    border: rgba(0,0,0,.75) 1px solid;
+    border: rgba(255,255,255,.5) 1px solid;
     border-radius: 1em;
-    margin: 5em;
+    margin: 2em;
     padding: 1.5em;
     text-decoration: none;
-    color: rgba(0,0,0,.75);
+    color: rgba(255,255,255,.5);
 }
 
 a:hover .button{
     text-decoration: none;
+    color: rgba(255,255,255,.75);
+    border: rgba(255,255,255,.75) 1px solid;
+    background: rgba(255,255,255,.75) 1px solid;;
+}
+
+input[type="text"] {
+	border: none;
+	color: rgba(1,1,1,.5);
+	padding: 1em;
+	margin: 5em;
 }
 
 #progressbar {
 	width: 75%;
-	border: black solid;
+	border: rgba(255,255,255,.5) solid;
 	border-radius: 1em; /* (height of inner div) / 2 + padding */
 	padding: .2em;
 	margin-right: auto;
@@ -37,7 +64,7 @@ a:hover .button{
 }
 
 #progressbar > div {
-	background-color: orange;
+	background-color: rgba(255,255,255,.5);
 	height: 1.4em;
 	border-radius: .8em;
 }

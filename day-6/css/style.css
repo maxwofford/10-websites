@@ -1,5 +1,6 @@
 html {
     background-image: url(../img/bg.jpg);
+    min-width: 480px;
 }
 
 body {
@@ -103,4 +104,11 @@ input[type="email"]:invalid {
 	background-color: rgba(255,255,255,.5);
 	height: 1.4em;
 	border-radius: .8em;
+}
+
+.subscribe {
+	max-width: 50em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }

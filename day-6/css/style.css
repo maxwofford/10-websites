@@ -35,17 +35,31 @@ nav {
 .section-container {
 	background: rgba(236, 240, 241, 0.5);
 	display: block;
-	margin: 5em;
+	margin-top: 5em;
+	padding: 5em;
 	overflow: auto;
 }
 
 .content-container {
-	text-align: right;
 	float: left;
-	max-width: 50%;
+	width: 50%;
 	display: block;
 }
 
+.right {
+	text-align: left;
+	margin-right: auto;
+}
+
+.left {
+	text-align: right;
+	margin-left: auto;
+}
+
+.image {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .top-title {
 	color: rgba(255,255,255,.85);

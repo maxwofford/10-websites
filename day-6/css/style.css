@@ -62,15 +62,15 @@ nav {
 }
 
 .top-title {
-	color: rgba(255,255,255,.85);
+	color: rgba(255,255,255,.6);
 }
 
 .main-title {
-	color: rgba(255,255,255,.95);
+	color: rgba(255,255,255,.7);
 }
 
 p {
-	color: rgba(255,255,255,.85);
+	color: rgba(255,255,255,.8);
 }
 
 .button {
@@ -88,8 +88,10 @@ p {
 }
 
 .scroll-down {
+	border-top: 1px rgba(255,255,255,.15) solid;
 	margin: 5em;
 	margin-top: 5em;
+	text-align: center;
 }
 
 a:hover{
@@ -101,10 +103,11 @@ a:hover{
 
 input[type="email"], textarea {
 	border: none;
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.25);
 	padding: 1em;
 	margin: 3em;
 	color: rgba(50,50,50,.5);
+	text-align: center;
 }
 
 input[type="email"]:focus, textarea:focus {

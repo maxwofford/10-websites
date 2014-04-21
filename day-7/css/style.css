@@ -1,0 +1,35 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+.top-content {
+	text-align: center;
+	height: 100%;
+	background-image: url(../img/header.gif);
+	color: rgba(255,255,255,.5);
+}
+
+#progressbar {
+	width: 75%;
+	border: rgba(255,255,255,.5) solid;
+	border-radius: 1em; /* (height of inner div) / 2 + padding */
+	padding: .2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#progressbar > div {
+	background-color: rgba(255,255,255,.5);
+	height: 1.4em;
+	border-radius: .8em;
+}
+
+a {
+	color: rgba(255,255,255,.5);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(255,255,255,.85);
+}

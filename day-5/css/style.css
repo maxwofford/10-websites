@@ -32,3 +32,22 @@ hr {
   background: #bfcfcd;
   border-color: #bfcfcd;
 }
+
+.all-games {
+  display: block;
+}
+
+.overlay {
+  position: relative;
+  float: left;
+  color: #ED9121;
+  background-color: rgba(0,0,0,0.5);
+}
+.title {
+  width: 300px;
+  height: 200px;
+}
+
+#title-1 {
+  background-image: url(http://placekitten.com/g/200/100);
+}

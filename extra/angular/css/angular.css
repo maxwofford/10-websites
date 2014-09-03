@@ -1,0 +1,47 @@
+.btn-angle {
+	border: none;
+	border-radius: 0px;
+	background-image: url('../img/greyButton.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.btn-info {
+	background-image: url('../img/blueButton.png');
+}
+.btn-warning {
+	background-image: url('../img/orangeButton.png');
+}
+.hr {
+	width: 100%;
+	height: 1px;
+	display: inline-block;
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
+}
+.hr-orange {
+	background: #FFBE46;
+}
+.hr-blue {
+	background: #0080ff;
+}
+.hr-internal {
+	background-color: rgb(255,255,255);
+	width: 33.333%;
+	height: 1px;
+	display: inherit;
+}
+.hr-strong-lighten {
+	opacity: 0.7;
+}
+.hr-weak-lighten {
+	opacity: 0.45;
+}
+.hr-no-lighten {
+	opacity: 0;
+}
+.light-bg {
+
+}
+.dark-bg {
+
+}

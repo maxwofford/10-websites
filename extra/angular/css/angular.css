@@ -40,7 +40,8 @@
 	opacity: 0;
 }
 .light-bg {
-
+	background-color: #3A3A3A;
+	color: #7D9494;
 }
 .dark-bg {
 	background-color: #141c1f;
@@ -74,16 +75,33 @@
 	border-color: #007bff transparent transparent transparent;
 }
 .arrow {
-	float: right;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 12px 24px 0 0;
 	border-color: #007bff transparent transparent transparent;
+}
+.right-arrow {
+	float: right;
+	border-width: 12px 24px 0 0;
+}
+.left-arrow {
+	float: left;
+	border-width: 12px 0 0 24px;
 }
 .block {
 	display: block;
 }
 a, a:hover, a:focus {
 	text-shadow: 0px 0px 8px;
+}
+.hero {
+	background-image: url(http://images4.alphacoders.com/265/265686.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding: 1.4em;
+}
+.hero .jumbotron {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 0px;
+	color: rgba(255,255,255,0.7);
 }
